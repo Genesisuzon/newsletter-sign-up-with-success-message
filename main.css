@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+#confirmation-page{
+    width: 375px;
+    height: 370px;
+    padding: 20px;
+}
+#confirmation-page img{
+    margin-top: 60px;
+}
+.heading{
+    margin-top: 20px;
+    padding-right: 10px;
+}
+.sub-txt{
+    margin-top: 20px;
+    font-size: 12px;
+}
+button{
+    margin-top: 300px;
+    width: 320px;
+    height: 45px;
+    background-color: hsl(234, 29%, 20%);
+        color: hsl(0, 0%, 100%);
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    
+}
+button:hover {
+    background-color: hsl(4, 100%, 67%);
+    
+}
+@media(min-width:576px) {
+    body{
+    background-color: hsl(235, 18%, 26%);
+    }
+   #confirmation-page{
+    background-color: white;
+    width: 400px;
+    padding: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-top: 130px;
+    
+   }
+   #confirmation-page img{
+    margin-top: 2px;
+   }
+   button{
+    margin-top: 30px;
+   }
+}

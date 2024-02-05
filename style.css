@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif; ;
+
+}
+.top{
+border: 1px solid 
+    height: 250px;
+    width : 375px;
+}
+.email-field{
+    color: black;
+    font-weight: 500;
+}
+.bottom{
+    border: 1px solid
+    height: 450px;
+    width: 375px;
+    padding-left: 25px;
+    padding-right: 30px;
+}
+.bottom h1{
+    margin-top: 60px;
+}
+.list-1,.list-2, .list-3 {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.provide-email{
+    border: 1px solid hsl(231, 7%, 60%);
+    height: 45px;
+    width: 300px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.sub-heading{
+    margin-top: 15px;
+}
+.list-txt{
+    margin-left: 10px;
+}
+
+button{
+    height: 45px;
+    width: 320px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color:hsl(234, 29%, 20%) ;
+    color: hsl(0, 0%, 100%);
+}
+button:hover{
+    background-color: hsl(4, 100%, 67%);
+}
+input{
+    
+    height: 45px;
+    width: 320px;
+    border-radius: 10px;
+    border: 2px solid #bfbfbf;
+    margin-left: 0.7px;
+    padding: 10px;
+     outline: none;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    
+    
+} 
+form.err input {
+
+    background-color:rgba(200, 0, 19, 0.1);
+    color:hsl(4, 100%, 67%) ;
+    border-color: hsl(4, 100%, 67%);
+    
+}
+::-webkit-input-placeholder{
+    position: absolute;
+    left: 20px;
+    top: 12.5px;
+    font-size: 1rem;
+}
+#email{
+    display:flex;
+    font-size: 0.7rem;
+    margin-top: 30px;
+
+}
+.invalid{
+    margin-left: 145px;
+    color:hsl(4, 100%, 67%) ;
+    
+    
+}
+@media(min-width:576px) {
+    #sign-up-page{
+     display: flex; 
+    flex-direction: row-reverse;
+    max-width: fit-content;
+    margin: 0 auto;
+    background-color: white;
+    height: 550px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 50px;
+    
+
+    }
+    body{
+background-color:hsl(235, 18%, 26%) ;
+    }
+
+.top{
+margin-top: 15px;
+width: 360px;
+}
+.bottom{
+width: 400px;
+padding: 30px;
+
+}
+.sub-heading{
+    margin-top: 20px;
+}
+.list-1,.list-2,.list-3{
+    margin-top: 20px;
+}
+.top img{
+    height: 520px;
+}
+
+}
+
+
+
+
+
+   
+
